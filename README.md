@@ -8,18 +8,18 @@ Execute the command on the command line: python python-project.py
 #### Game operation:
 
 1. Push the "New Game" button to start
-2. Player 1 should choose the column to insert the coin, by clicking the green circle above the desired column.
-3. Then Player one should do the same.
+2. Player 1 choose the column to insert the coin, by clicking the green circle above the desired column.
+3. Following that Player 2 does the same.
 4. The game continues until one of things happen:
 	* The board is filled and there is no winner
 	* Either player 1 or player 2 were able to get a row of 4 continues coins with the same color. (blue or red)
 5. The App identified a winner, mention it on the screen and wait for a start of a new game.
 6. The App have the option to start a new game at any point, by pushing the "New Game" button.
-7. The App count the number of wins of every player and present it on the screen.
+7. The App counts the number of wins of every player and present it on the screen.
 
 #### Code Structure:
 
-The code is composed of a main function and 2 main classes:
+The code is composed of a main() function and 2 main classes:
 
 * Class Window: responsible for the graphic presentation
 * Class Game: using the Window class for operating the game logic.
