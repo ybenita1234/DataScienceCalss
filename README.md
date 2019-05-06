@@ -1,6 +1,6 @@
 ### Four in a Row - Game -- in Python ###
 
-This python App uses the graphics.py package for displaying graphics on the screen. The App execute the 4 in a row game between two players. 
+This python App execute the game 4 in a rwo between two live players.It uses the graphics.py package for displaying graphics on the screen. 
 
 #### Running the App
 Execute the command on the command line: python python-project.py
