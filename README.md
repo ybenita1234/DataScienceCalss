@@ -24,7 +24,7 @@ The code is composed of a main() function and 2 main classes:
 * Class Window: responsible for the graphic presentation
 * Class Game: using the Window class for operating the game logic.
 
-#### Class Methods:
+#### Class Methods: ####
 **Class Window:**
 
 ***def __init__(self):*** init the object and create the presentation board that includes 7 columns and 6 rows with empty circles. The board presentation and state is saved in the object.
