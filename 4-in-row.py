@@ -14,7 +14,7 @@ class Window:
         self.win.setBackground('gray')                     # background
         self.circles = []                                  # the list of all circles in the board
         self.gameBoard = []                                # the board - which circle in empty and which not
-        self.row = []                                      # the row of the circles for choosing the rows
+        self.row = []                                      # the row of the circles for choosing the column
         self.rowIndex = [0,0,0,0,0,0,0]                    # the index of the last filled circle in a column
 
         # Players and score labels on the screen
