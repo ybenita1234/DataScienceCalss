@@ -369,7 +369,7 @@ def main():
     game      = Game(gameBoard) # create game object
     gameBoard.drawGamePannel()  # drew the game board
 
-    # crew the game over label
+    # drew the game over label
     gameOver = Text(Point(250, 250), '')
     gameOver.setTextColor('Black')
     gameOver.setSize(30)
