@@ -3,6 +3,7 @@
 This python App execute the game 4 in a rwo between two live players.It uses the graphics.py package for displaying graphics on the screen. 
 
 #### Running the App
+Install graphics.py - pip install graphics.py
 Execute the command on the command line: python 4-in-row.py
 
 #### Game operation:
