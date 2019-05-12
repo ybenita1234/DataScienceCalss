@@ -1,6 +1,5 @@
 from graphics import *
- 
-import random
+
 #########################################
 # Name: Windows
 # Description: the penetration of the 4 in
