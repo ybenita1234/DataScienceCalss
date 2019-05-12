@@ -1,6 +1,6 @@
 ### Four in a Row - Game -- in Python ###
 
-This python App execute the game 4 in a rwo between two live players.It uses the graphics.py package for displaying graphics on the screen. 
+This python App execute the 4 in a rwo עצשק between two live players.It uses the graphics.py package for displaying graphics on the screen. 
 
 #### Running the App
 Install graphics.py - pip install graphics.py
@@ -10,12 +10,12 @@ Execute the command on the command line: python 4-in-row.py
 
 1. Push the "New Game" button to start
 2. Player 1 choose the column to insert the coin, by clicking the green circle above the desired column.
-3. Following that Player 2 does the same.
-4. The game continues until one of things happen:
+3. Following that, Player 2 does the same.
+4. The game continues until one of the things happens:
 	* The board is filled and there is no winner
-	* Either player 1 or player 2 were able to get a row of 4 continues coins with the same color. (blue or red)
+	* Either player 1 or player 2 were able to get a row with 4 continues coins with the same color. (blue or red)
 5. The App identified a winner, mention it on the screen and wait for a start of a new game.
-6. The App have the option to start a new game at any point, by pushing the "New Game" button.
+6. The App includes the option to start a new game at any point, by pushing the "New Game" button.
 7. The App counts the number of wins of every player and present it on the screen.
 
 #### Code Structure:
@@ -28,13 +28,13 @@ The code is composed of a main() function and 2 main classes:
 #### Class Methods: ####
 **Class Window:**
 
-***def __init__(self):*** init the object and create the presentation board that includes 7 columns and 6 rows with empty circles. The board presentation and state is saved in the object.
+***def __init__(self):*** init the object and creatse the presentation board that includes 7 columns and 6 rows with empty circles. The board presentation and state is saved in the object.
 
 ***def Init(self)*** Initialize the view and the parameters when a new game is requested.
 
 ***def drawGamePannel(self):*** draw the game board based on the presentation state.
 
-***def checkWin(self,index,player):*** This is the main method in App. It includes the logic for checking if player won in the last operation. It gets the player number and the index of the last chose column. Using the board status, check if there are 4 continues coins with the player 1 color (red or blue) in a row. 
+***def checkWin(self,index,player):*** This is the main method in the App. It includes the logic for checking if player won in the last operation. It gets the player number and the index of the last chose column. Using the board status, check if there are 4 continues coins with the player color (red or blue) in a row. 
 
 ***def addCircle(self,color, rowNum):*** insert a coin with color "color" to column "rowNum" on the board. Update the board state accordingly.
 
@@ -50,8 +50,8 @@ The code is composed of a main() function and 2 main classes:
 
 ***def play(self):*** This is the game loop which does the following:
 
-1. Wait for user mouse click: a new column or new game.
-2. Insert a coin to the chose column or start a new game.
+1. Wait for the user mouse click: a new column or new game.
+2. Insert a coin to the chosed column or start a new game.
 3. Repeat the process for player 1 and then 2 continually until there is a winner or the board is filled.
 4. Return the winner or game over status.
 
